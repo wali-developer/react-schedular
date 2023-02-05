@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { Scheduler } from "@aldabil/react-scheduler";
 import Head from 'next/head';
 
-import Layout from '../../../components/Layout';
 import API from '../../../API';
 import getHeader from '../../../utils/getHeader';
 import Loader from '../../../components/CustomeLoader';
@@ -195,7 +194,6 @@ const index = () => {
                 <meta name="description" content="Grocery Login page" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Layout>
                 <section className='flex-1 h-auto min-h-[700px] bg-white rounded-[32px] px-10 py-8 border-2 '>
                     <div className='flex justify-between flex-wrap gap-5 px-3'>
                         <h1 className='font-medium text-xl md:text-[24px]'>All Agendas</h1>
@@ -258,7 +256,6 @@ const index = () => {
                         />
                     </div>
                 </section>
-            </Layout>
             {loading && <div className='z-[999]'>
                 <CustomeLoader />
             </div>}
