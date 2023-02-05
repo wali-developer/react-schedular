@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@aldabil/react-scheduler": "^2.1.0",
+    "@aldabil/react-scheduler": "2.6.10",
     "axios": "^0.27.2",
     "cookies-next": "^2.0.5",
     "next": "12.1.6",
