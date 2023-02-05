@@ -1,0 +1,17 @@
+.active_link {
+    // border-left: 3px solid #52B467;
+    &::before {
+        content: '';
+        width: 3px;
+        height: 40px;
+        background-color: #52B467;
+        position: absolute;
+        left: 0;
+
+    }
+    span {
+        color: #52B467;
+        font-weight: 500;
+        // font-size: calc(14px - 0px);
+    }
+}

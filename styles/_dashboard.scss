@@ -1,0 +1,89 @@
+.apex__chart {
+    .apexcharts-toolbar {
+        display: none !important;
+        opacity: 0 !important;
+    }
+}
+.transaction__chart {
+    .apexcharts-yaxis {
+        display: none !important;
+        position: absolute;
+    }
+}
+
+// Agenda 
+.agenda_schedular {
+    .css-m1a27h {
+        div:first-child {
+            margin-bottom: 20px;
+            align-items: center;
+        }
+        .css-1e6y48t-MuiButtonBase {
+            color: red !important;
+        }
+    }
+    .css-3f54eu:first-of-type {
+        border: none;
+    }
+    .css-3f54eu {
+        .rs__header, .rs__cell:first-child {
+            border: none;
+        }
+        .rs__cell:first-child {
+            border-bottom: 1px solid #eee;
+            height: 70px !important;
+        }
+        .rs__cell {
+            height: 120px !important;
+        }
+        .rs__header {
+            height: 70px !important;
+            padding: 0;
+            margin: auto;
+            div {
+                text-align: center;
+                p:first-child {
+                    font-size: 21px !important;
+                    font-weight: 500 !important;
+                    color: #24242C;
+                }
+                p:last-child {
+                    font-size: 16px !important;
+                    font-weight: 500 !important;
+                    color: #24242C;
+                    text-transform: uppercase;
+                    font-family: 'Poppins';
+                }
+            }
+        }
+        .rs__today_cell {
+            font-size: 24px;
+            font-weight: 600 !important;
+            color: #6F52ED !important;
+            
+        }
+        .rs__event__item {
+            left: 4px;
+        }
+    }
+}
+
+.dashboard_select {
+    position: relative;
+    &::before {
+        content: url('../public/images/dropdown.svg') !important;
+        // position: absolute;
+        // top: 50%;
+        // right: 5px;
+    }
+}
+
+// Actions styling
+.after_dropdown {
+    &::before {
+        content: url('../public//images/dropdown.svg');
+        position: absolute;
+        top: 50%;
+        right: 8px;
+    }
+}

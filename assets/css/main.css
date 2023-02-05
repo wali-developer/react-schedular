@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.scroll_hide {
+  /* width */
+  /* Track */
+  /* Handle */
+}
+.scroll_hide::-webkit-scrollbar {
+  width: 0px;
+}
+.scroll_hide::-webkit-scrollbar-track {
+  background: #fff;
+}
+.scroll_hide::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+.select_wrapper .css-1s2u09g-control {
+  background-color: transparent !important;
+  border-width: 0px !important;
+  border-color: transparent !important;
+  border-style: none !important;
+  height: 100% !important;
+}
+.select_wrapper .css-1pahdxg-control {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  border-width: 0px !important;
+  border-color: transparent !important;
+  border-style: none !important;
+  height: 100% !important;
+}
+.select_wrapper .css-1pahdxg-control:hover {
+  border: none !important;
+  border-color: transparent !important;
+}
+.select_wrapper .css-b62m3t-container {
+  height: 100% !important;
+}
+.select_wrapper .css-26l3qy-menu {
+  border-radius: 0px !important;
+}
+.select_wrapper .css-26l3qy-menu .css-1n7v3ny-option {
+  background-color: transparent;
+}
+.select_wrapper .css-1okebmr-indicatorSeparator {
+  display: none;
+}
+.select_wrapper .css-tlfecz-indicatorContainer {
+  color: #4e4e4e;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #52b467;
+}
+
+.styled-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+.styled-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+}
+.styled-checkbox + label:before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 17px;
+  height: 17px;
+  background: white;
+  border: 1px solid #52b467;
+  border-radius: 3px;
+}
+.styled-checkbox:checked + label:before {
+  background: #52b467;
+}
+.styled-checkbox:disabled + label {
+  color: #b8b8b8;
+  cursor: auto;
+}
+.styled-checkbox:disabled + label:before {
+  box-shadow: none;
+  background: #ddd;
+}
+.styled-checkbox:checked + label:after {
+  content: url("../public/images/correct.svg");
+  position: absolute;
+  left: 4px;
+  top: 0px;
+  background: transparent;
+}
+
+.loader_background {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.active_link::before {
+  content: "";
+  width: 3px;
+  height: 40px;
+  background-color: #52B467;
+  position: absolute;
+  left: 0;
+}
+.active_link span {
+  color: #52B467;
+  font-weight: 500;
+}
+
+.apex__chart .apexcharts-toolbar {
+  display: none !important;
+  opacity: 0 !important;
+}
+
+.transaction__chart .apexcharts-yaxis {
+  display: none !important;
+  position: absolute;
+}
+
+.agenda_schedular .css-m1a27h div:first-child {
+  margin-bottom: 20px;
+  align-items: center;
+}
+.agenda_schedular .css-m1a27h .css-1e6y48t-MuiButtonBase {
+  color: red !important;
+}
+.agenda_schedular .css-3f54eu:first-of-type {
+  border: none;
+}
+.agenda_schedular .css-3f54eu .rs__header, .agenda_schedular .css-3f54eu .rs__cell:first-child {
+  border: none;
+}
+.agenda_schedular .css-3f54eu .rs__cell:first-child {
+  border-bottom: 1px solid #eee;
+  height: 70px !important;
+}
+.agenda_schedular .css-3f54eu .rs__cell {
+  height: 120px !important;
+}
+.agenda_schedular .css-3f54eu .rs__header {
+  height: 70px !important;
+  padding: 0;
+  margin: auto;
+}
+.agenda_schedular .css-3f54eu .rs__header div {
+  text-align: center;
+}
+.agenda_schedular .css-3f54eu .rs__header div p:first-child {
+  font-size: 21px !important;
+  font-weight: 500 !important;
+  color: #24242C;
+}
+.agenda_schedular .css-3f54eu .rs__header div p:last-child {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  color: #24242C;
+  text-transform: uppercase;
+  font-family: "Poppins";
+}
+.agenda_schedular .css-3f54eu .rs__today_cell {
+  font-size: 24px;
+  font-weight: 600 !important;
+  color: #6F52ED !important;
+}
+.agenda_schedular .css-3f54eu .rs__event__item {
+  left: 4px;
+}
+
+.dashboard_select {
+  position: relative;
+}
+.dashboard_select::before {
+  content: url("../public/images/dropdown.svg") !important;
+}
+
+.after_dropdown::before {
+  content: url("../public//images/dropdown.svg");
+  position: absolute;
+  top: 50%;
+  right: 8px;
+}
+
+.Verification_code_Wrapper div {
+  width: 100%;
+  margin: 0 auto;
+}
+.Verification_code_Wrapper div input {
+  border-bottom: 3px solid #52B467;
+  background: transparent;
+  color: black;
+  font-size: 28px;
+  font-weight: 600;
+  margin: auto;
+}
+.Verification_code_Wrapper div input:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000000;
+}
+@media only screen and (min-width: 1920px) {
+  body {
+    width: 1920px !important;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  html {
+    background-color: #DEFFDE;
+  }
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding: auto 25px;
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1192px;
+    margin: auto;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+/* Link */
+a {
+  text-decoration: none;
+  color: #000000;
+}/*# sourceMappingURL=main.css.map */

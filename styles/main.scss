@@ -1,0 +1,49 @@
+@import 'font';
+@import 'common';
+@import 'layout';
+@import 'dashboard';
+@import 'auth';
+
+
+// ----------- Globals Styling -----------
+
+body {
+  @media only screen and (min-width: 1920px) {
+    width: 1920px !important;
+    margin: auto;
+  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000000;
+}
+html {
+  @media only screen and (min-width: 1920px) {
+    background-color: #DEFFDE;
+  }
+}
+.container {
+  @media only screen and (min-width: 1200px) {
+    width: 1192px;
+    margin: auto;
+  }
+  width: 100%;
+  margin: auto;
+  padding: auto 25px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-weight: 600;
+}
+
+/* Link */
+a {
+text-decoration: none;
+color: #000000;
+}
+
+// ----------- Globals Styling end -----------

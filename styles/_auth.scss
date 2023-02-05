@@ -1,0 +1,17 @@
+.Verification_code_Wrapper {
+    div {
+        width: 100%;
+        margin: 0 auto;
+        input {
+            border-bottom: 3px solid #52B467;
+            background: transparent;
+            color: black;
+            font-size: 28px;
+            font-weight: 600;
+            margin: auto;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}

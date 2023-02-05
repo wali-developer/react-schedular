@@ -1,0 +1,150 @@
+// =======Reusable Classess===================
+.scroll_hide {
+  /* width */
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #fff;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #fff;
+  }
+}
+
+// React select customization
+.select_wrapper {
+  .css-13cymwt-control {
+    background-color: transparent !important;
+    border-width: 0px !important;
+    border-color: transparent !important;
+    border-style: none !important;
+    height: 100% !important;
+    box-shadow: none !important;
+    &:focus {
+      box-shadow: none !important;
+      border-width: 0px !important;
+      border-color: transparent !important;
+      height: 100% !important;
+    }
+  }
+  .css-t3ipsp-control {
+    box-shadow: none !important;
+    background-color: transparent !important;
+    border-width: 0px !important;
+    border-color: transparent !important;
+    border-style: none !important;
+    height: 100% !important;
+    &:focus {
+      box-shadow: none !important;
+      border-width: 0px !important;
+      border-color: transparent !important;
+      height: 100% !important;
+    }
+  }
+
+  .css-1pahdxg-control {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    border-width: 0px !important;
+    border-color: transparent !important;
+    border-style: none !important;
+    height: 100% !important;
+
+    &:hover {
+      border: none !important;
+      border-color: transparent !important;
+    }
+  }
+
+  .css-b62m3t-container {
+    height: 100% !important;
+  }
+
+  // .css-26l3qy-menu {
+  //   border-radius: 0px !important;
+
+  //   .css-1n7v3ny-option {
+  //     background-color: transparent;
+  //     // color: #fff;
+  //   }
+
+  //   .css-9gakcf-option {
+  //     background-color: #52b467;
+  //   }
+  // }
+}
+// End React select customization
+
+// Scroll bar styling
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #52b467;
+}
+
+// End
+
+// Custom checkbox start
+.styled-checkbox {
+  position: absolute; // take it out of document flow
+  opacity: 0; // hide it
+
+  & + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  // Box.
+  & + label:before {
+    content: "";
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 17px;
+    height: 17px;
+    background: white;
+    border: 1px solid #52b467;
+    border-radius: 3px;
+  }
+
+  // Box checked
+  &:checked + label:before {
+    background: #52b467;
+  }
+
+  // Disabled state label.
+  &:disabled + label {
+    color: #b8b8b8;
+    cursor: auto;
+  }
+
+  // Disabled box.
+  &:disabled + label:before {
+    box-shadow: none;
+    background: #ddd;
+  }
+
+  // Checkmark. Could be replaced with an image
+  &:checked + label:after {
+    content: url("../public/images/correct.svg");
+    position: absolute;
+    left: 4px;
+    top: 0px;
+    background: transparent;
+  }
+}
+// Custom checkbox end
+
+// Loader
+.loader_background {
+  background-color: rgba(0, 0, 0, 0.3);
+}
